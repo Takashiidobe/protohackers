@@ -3,9 +3,9 @@ use std::net::TcpStream;
 use std::str::from_utf8;
 
 fn main() {
-    match TcpStream::connect("localhost:8080") {
+    match TcpStream::connect("139.144.30.206:48000") {
         Ok(mut stream) => {
-            println!("Successfully connected to server in port 8080");
+            println!("Successfully connected to remote server on port 48000");
 
             let msg = b"Hello!";
 
