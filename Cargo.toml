@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+  "means_to_an_end",
+  "prime_time",
+  "smoke_test",
+  "smoke_test_client",
+  "unusual_database_program",
+]
